@@ -1,0 +1,169 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0 auto;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+     text-decoration:none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+.top-header{width:80%; height:150px; /*background:#FF33FF;*/ /*margin-left:140px;*/ }
+.left-logo{width:30%; height:100%; /*background:#FF33FF;*/ float:left;}
+.left-logo img{width:100%; height:100%; }
+
+.right-section{ width:70%; height:100%; /*background:#FF33FF;*/ float:left; }
+ .right-top-number{ width:100%; height:40%; background:none;  }
+.right-top-image{width:100%; height:60%; background:none;  }
+img {width:100%; height:100%;}
+
+#all-gallery-heading-style{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; margin-left:40px; text-align:left;}
+#all-gallery-heading-style-1{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; text-align:center;}
+#all-gallery-heading-style-2{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; text-align:center;}
+
+
+#all-gallery-heading-style-3{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; text-align:center;}
+#all-gallery-heading-style-4{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; text-align:center;}
+
+#all-gallery-heading-style-5{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; text-align:center;}
+#all-gallery-heading-style-6{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; text-align:center;}
+
+#all-gallery-heading-style-7{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; text-align:center;}
+#all-gallery-heading-style-8{width:100%; height:20px; float:left; color:#990000; font-size:26px; font-weight:800; font-style:oblique; font-family:"Courier New", Courier, monospace; margin-bottom:20px; margin-top:10px; text-align:center;}
+
+
+
+
+
+/* start body section*/
+
+
+.body-section{width:auto; height:auto; background:none; /*margin-left:140px;*/}
+#manue_list-1{ width:100%; height:200px; float:left;}
+ul{ width:100%; height:200px; margin-top:10px; float:left;}
+ ul li { margin:10px; width:10%; height:27px; background:#000033; color:#CCCCCC; border-radius:10px;  cursor:pointer;}
+ul a{ text-align:center; line-height:25px;}
+
+
+
+/* . .. . . start sliding work . . . ... */
+
+.slider-1{ box-shadow:0px 0px 15px grey;  margin-top:5px; width:100%;  height:382px; float:left; overflow:hidden; }
+.alternate{width:5310px; position:relative;  height:382px; animation-name:wap; animation-duration:30s; animation-iteration-count:infinite; } 
+@keyframes wap
+{ 
+0%{top:opx; left:0px;}
+10%{top:opx;left:0px;}
+20%{top:opx;left:-1062px;}
+30%{top:opx;left:-1062px;}
+40%{top:opx;left:-2124px;}
+50%{top:opx;left:-2124px;}
+600%{top:opx;left:-3186px;}
+70%{top:opx;left:-3186px;}
+80%{top:opx;left:-4248px;}
+90%{top:opx;left:-4248px;}
+
+
+
+}
+.alternate img {width:1062px; height:382px; float:left;}
+
+/* End sliding work*/
+
+
+
+.services-img-details{ width:100%; height:400px; background:#003333; float:left; box-shadow:1px  1px 1px 1px;}
+.services-img-details img{ width:100%; height:400px; }
+
+
+
+/* . .. .  Start footer part . . .. .*/
+
+.footer{ width:100%; height:auto; background:#999999; float:left;}
+#social{ margin-left:10px; padding-left:10px; float:left; width:18%; height:300px;  margin-bottom:30px;}
+#social:hover{box-shadow: 1px 0px 0px 0px; height:300px;}
+button{cursor:pointer; }
+#social p{ margin-top:5px;}
+a{margin-left:2px;}
+
+
+
+/*. .  ..  start contact section .. .  .  .*/
+
+table{ width:35%; height:auto; margin-top:7px; padding-left:3px; padding-top:6px; float:left;   }
+
+input[type="text"]{ width:90%; height:30px; text-shadow:#990000; margin-top:7px; color:#990000; border-radius:5px;}
+input[type="email"]{ width:90%; height:30px; margin-top:7px; border-radius:5px;}
+input[type="submit"]{ width:16%; height:27px; margin-top:15px; background:#000033; color:#CCCCCC; border-radius:5px;}
+input[type="submit"]:hover{ width:17%; height:30px;  background:#993366; color:#CCCCCC; cursor:pointer; border-radius:5px }
+#opp{padding-left:120px;}
+
+#one_img{width:100%; height:400px; /*background:#99CC33;*/ float:left;}
+#frame{width:100%; height:350px;  margin-top:20px; background:#F3F3F3;}
+#frame iframe{ width:100%; height:350px;}
+
+#addrs{width:49%; height:400px; /*background:#99CC33;*/ float:left;}
+#addrs p{ margin:7px; font-size:16px; font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+#booking{width:49%; height:400px; /*background:#99CC33;*/  float:left;}
+#booking_img{width:50%; height:400px; /*background:#99CC33;*/  float:right;}
+#booking_img p{width:90%; height:300px;  float:right; margin-top:15px; margin-right:17px;  }
+#booking_img img{width:90%; height:300px;  float:right;  border-radius:47px;}
+
+/*. . . ..  End contact section .. .  .  .*/
+
+
+
+
+
+/* . .. . . . Start services section  .. .  . .*/
+.manue_list{ width:100%; height:100px; float:left;}
+.manue_list ul{width:100%; height:70px; /*background:#330066;*/}
+.manue_list ul li{ display:inline;}
+li #optio{ width:10%; height:30px; background:#000033; color:#CCCCCC; border-radius:20px;}
+/* . .. . . . End services section  .. .  . .*/
